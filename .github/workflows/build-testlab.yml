@@ -35,8 +35,8 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository_owner }}/testlab
           tags: |
-            type=sha,format=short      # testlab:abc1234
-            type=raw,value=latest      # testlab:latest
+            type=sha,format=short,prefix=      # testlab:abc1234
+            type=raw,value=latest              # testlab:latest
 
       - name: Build and push the testlab container
         uses: docker/build-push-action@v6
