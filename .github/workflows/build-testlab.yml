@@ -3,7 +3,7 @@ name: Build the testlab container and push it to the GitHub Container Registry
 on:
   push:
     paths:
-      - 'contatiner/Dockerfile'
+      - 'container/Dockerfile'
 
 jobs:
   build-and-push:
