@@ -20,3 +20,4 @@ RUN pip install --no-cache-dir \
 
 WORKDIR /app
 CMD ["bash"]
+
