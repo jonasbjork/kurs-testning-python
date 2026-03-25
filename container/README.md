@@ -15,7 +15,7 @@ docker build -t testing .
 Om du inte vill bygga en egen containerimage kan du hämta en färdigbyggd:
 
 ```sh
-docker pull quay.io/kurs/testing
+docker pull ghcr.io/jonasbjork/testlab:latest
 ```
 
 
