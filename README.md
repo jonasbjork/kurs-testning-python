@@ -36,9 +36,9 @@ Jupyterlab är ett program som gör det enkelt att laborera i Python. Kika i kat
 
 ## Rekommenderad litteratur
 
-Python Testing with pytest — Brian Okken (2e, Pragmatic Bookshelf)
-Test-Driven Development with Python — Harry Percival (O'Reilly, gratis online)
-ISTQB Foundation Level Syllabus — (gratis PDF, bra som referens för teori)
+- [Python Testing with pytest](https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/) — Brian Okken (2e, Pragmatic Bookshelf)
+- [Test-Driven Development with Python](https://www.obeythetestinggoat.com/pages/book.html) — Harry Percival (O'Reilly, gratis online)
+- [ISTQB Foundation Level Syllabus](https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf) — (gratis PDF)
 
 ## Feedback
 
