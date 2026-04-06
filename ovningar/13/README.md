@@ -26,7 +26,7 @@ Fixture `sample_book` bygger på `client`-fixturen och skapar en bok åt oss. De
 
 ## Tester
 
-Här är de testfall ni skall skriva, börja uppifrån och arbeta dig nedåt. Varje test skall vara en egen funktion - tänk på bra namngivning. Till exempel `test_get_books_empty_returns_empty_list` eller `test_create_book_missing_title_returns_400`.
+Här är de testfall ni skall skriva, börja uppifrån och arbeta nedåt. Varje test skall vara en egen funktion - tänk på bra namngivning. Till exempel `test_get_books_empty_returns_empty_list` eller `test_create_book_missing_title_returns_400`.
 
 Använd `sample_book`-fixturen där det är relevant, men för testet med den tomma listan (test 1) skall ni bara använda `client`.
 
@@ -40,6 +40,18 @@ Använd `sample_book`-fixturen där det är relevant, men för testet med den to
 8. Skapa tre böcker, verifiera att `GET` listar alla 3.
 
 ## Tips
+
+Starta Flask-applikationen i en terminal:
+
+```sh
+python app.py
+```
+
+Sedan startar du en ny terminal med containern, så du kan köra testerna:
+
+```sh
+docker exec -it <CONTAINER_ID> bash
+```
 
 ### Hur skickar jag JSON-data?
 
