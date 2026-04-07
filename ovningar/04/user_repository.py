@@ -21,4 +21,3 @@ class UserRepository:
 
     def count(self) -> int:
         return len(self.users)
-    

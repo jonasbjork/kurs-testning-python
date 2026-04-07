@@ -6,6 +6,7 @@ app = Flask(__name__)
 books = []
 next_id = 1
 
+
 @app.route("/api/books", methods=["GET"])
 def get_books():
     return jsonify(books)
@@ -59,4 +60,4 @@ def delete_book(book_id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True,host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')

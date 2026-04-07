@@ -11,7 +11,9 @@ class Calculator:
 
     def divide(self, a, b):
         if b == 0:
-            return "Error"  # Avsiktligt: returnerar sträng istället för exception
+            # Avsiktlig bugg: returnerar sträng istället
+            # för att kasta exception
+            return "Error"
         return a / b
 
     def power(self, base, exp):
