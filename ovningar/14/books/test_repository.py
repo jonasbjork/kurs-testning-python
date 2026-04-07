@@ -1,8 +1,7 @@
 #
 # Här skriver du dina tester för repository-klassen i repository.py
-# 
+#
 import pytest
-import os
 from repository import BookRepository
 
 
@@ -15,6 +14,6 @@ def repo(tmp_path):
 
 
 def test_get_all_empty(repo):
-    """Det första testet: get_all() på en tom databas ska returnera en tom lista."""
+    """Det första testet: get_all() på en tom databas
+       ska returnera en tom lista."""
     assert repo.get_all() == []
-

@@ -1,6 +1,7 @@
 # repository.py
 import sqlite3
 
+
 class BookRepository:
     def __init__(self, db_path):
         self.db_path = db_path
