@@ -1,3 +1,17 @@
+"""
+Lösningsförslag för övning 13
+
+- I filen conftest.py finns en fixture som heter 
+  sample_book. Denna skapar en bok åt oss, utan 
+  denna hade vi behövt använda client.post(...) 
+  i toppen av varje test som behöver en bok. Notera 
+  hur vi använder sample_book i uppgift 4, 6 och 7.
+
+- Varje test har tre tydliga faser - förbered data, 
+  utför anrop och verifiera resultat. Detta kallas 
+  Arrange–Act–Assert, försök att identifiera dessa i testerna.
+  
+"""
 
 """ 1. GET /api/books - tom lista som returnerar 200 och []"""
 def test_empty_list_returns_200(client):
