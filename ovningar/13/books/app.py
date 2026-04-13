@@ -6,6 +6,9 @@ app = Flask(__name__)
 books = []
 next_id = 1
 
+@app.route("/")
+def home():
+    return "Applikationen är startad, men alla endpoints är under /api/ - se källkoden!"
 
 @app.route("/api/books", methods=["GET"])
 def get_books():
