@@ -23,6 +23,9 @@ def test_sort_is_ordered(xs):
 
 @given(st.lists(st.integers()))
 def test_sort_idempotent(xs):
+    # sorted(sorted()) testar att den sorterade
+    # listan fortfarande är sorterad efter att
+    # den sorterats igen
     assert sorted(sorted(xs)) == sorted(xs)
 ```
 
