@@ -1,0 +1,23 @@
+{
+    "tests_by_mangled_function_name": {
+        "calculator.x\u01c1Calculator\u01c1add": [
+            "test_calculator.py::test_add"
+        ],
+        "calculator.x\u01c1Calculator\u01c1divide": [
+            "test_calculator.py::test_divide_by_zero"
+        ],
+        "calculator.x\u01c1Calculator\u01c1sqrt": [
+            "test_calculator.py::test_sqrt_negative"
+        ],
+        "calculator.x\u01c1Calculator\u01c1modulo": [
+            "test_calculator.py::test_modulo_by_zero"
+        ]
+    },
+    "duration_by_test": {
+        "test_calculator.py::test_add": 0.04419720799999993,
+        "test_calculator.py::test_divide_by_zero": 0.0002388740000043299,
+        "test_calculator.py::test_sqrt_negative": 0.0001748330000026499,
+        "test_calculator.py::test_modulo_by_zero": 0.00019766599999115897
+    },
+    "stats_time": 1.039603136
+}

@@ -4,7 +4,7 @@ from hypothesis import strategies as st
 
 @given(st.lists(st.integers()))
 def test_sort_preserves_length(xs):
-    assert len(sorted(xs)) == len(xs)
+    assert len(sorted(xs)) == len(xs)-2
 
 
 @given(st.lists(st.integers()))

@@ -27,7 +27,6 @@ def test_felaktigt_losenord():
 def test_okand_anvandare():
     pass
 
-
 @given(
     parsers.parse('att användaren "{username}" finns med lösenord "{password}"'),
     target_fixture="registered_user",
